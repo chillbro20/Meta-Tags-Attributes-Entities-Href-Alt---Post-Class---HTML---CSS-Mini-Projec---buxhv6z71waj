@@ -1,1 +1,77 @@
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    margin: 105px;
+    width: 100vh;
+    height: 100vh;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 8px 15px 10px 20px #ededed;
+    line-height: 35px;
+}
+
+.head,
+input,
+button,
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.email {
+    width: 100%;
+    height: 50px;
+    background-color: #efefef;
+    border: 1px white;
+    border-radius: 5px;
+}
+
+.password {
+    width: 100%;
+    height: 50px;
+    background-color: #efefef;
+    border: 1px white;
+    border-radius: 5px;
+}
+
+.btnlogin {
+    width: 100%;
+    height: 50px;
+    background-color: #de5e04;
+    color: white;
+    border: 1px white;
+    border-radius: 5px;
+}
+
+.btn1 {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: 1px white;
+    border-radius: 5px;
+
+}
+
+.btn2 {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 1px white;
+    border-radius: 5px;
+}
