@@ -12,12 +12,13 @@ body {
 }
 
 .main {
-    margin: 105px;
+    margin: 30px;
     width: 100vh;
     padding: 20px;
     background-color: white;
-    box-shadow: 8px 15px 10px 20px #ededed;
+    box-shadow: 1px 1px 15px 5px #ededed;
     line-height: 35px;
+    border-radius: 15px;
 }
 
 .head,
